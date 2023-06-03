@@ -1,8 +1,27 @@
+
+   
+let metrics=ym:s:visits
+
 const admin=
+
 {
-    usrCounter()
+
+    testFunc()
+
     {
+
         console.log("test123")
+
+    },
+
+    usrCounter()
+
+    {
+
+        console.log(metrics)
+
         return 0
+
     }
+
 }
